@@ -376,7 +376,7 @@ function coarse_graining(aa_molecule::AAMolecule, force_field::ForceFieldCG, arg
     i_step += 1
     if verbose
         println("============================================================")
-        println("> Step $(i_step): determine protein/DNA/RNA chais.")
+        println("> Step $(i_step): determine protein/DNA/RNA chains.")
     end
 
     # -------
